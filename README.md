@@ -1,27 +1,23 @@
-# Portofoliu
+# Portofoliu — Țîgîrlaș Andrei
 
-Primul meu proiect de portofoliu — pagină web statică realizată cu HTML.
+Primul meu site real: pagină statică de portofoliu cu Vite vanilla (HTML, CSS și JavaScript simplu).
 
-## Structură
+## Ce conține
 
+Hero, Despre mine, Skill-uri și unelte, Proiecte, Contact.
+
+## Cum se pornește
+
+```bash
+npm install
+npm run dev
 ```
-portofoliu/
-└── prima_lucrare.html  # prima pagină / prima lucrare
+
+Build de producție:
+
+```bash
+npm run build
 ```
-
-## Cum rulezi
-
-1. Clonează repository-ul:
-   ```bash
-   git clone https://github.com/Andriuha20/portofoliu.git
-   ```
-2. Deschide `portofoliu/prima_lucrare.html` în browser (dublu-click sau cu Live Server din VS Code).
-
-## Plan
-
-- [ ] Conținut pentru `prima_lucrare.html`
-- [ ] Stilizare cu CSS
-- [ ] Secțiuni: Despre mine, Proiecte, Contact
 
 ## Autor
 
