@@ -1,13 +1,147 @@
 <!doctype html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-scaffold</title>
+    <meta
+      name="description"
+      content="Portofoliul lui Țîgîrlaș Andrei, student UTM care învață vibe coding: proiecte, skill-uri și contact."
+    />
+    <meta name="theme-color" content="#2563eb" />
+    <title>Țîgîrlaș Andrei — Portofoliu</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#hero">TA</a>
+        <nav aria-label="Navigație principală">
+          <ul>
+            <li><a href="#despre">Despre mine</a></li>
+            <li><a href="#skilluri">Skill-uri</a></li>
+            <li><a href="#proiecte">Proiecte</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <p class="salut">Salut, eu sunt</p>
+          <h1>Țîgîrlaș Andrei</h1>
+          <p class="subtitlu">Un student ce dorește să învețe vibe coding.</p>
+          <div class="butoane">
+            <a class="btn primar" href="#contact">Contactează-mă</a>
+            <a
+              class="btn secundar"
+              href="https://github.com/Andriuha20"
+              target="_blank"
+              rel="noopener"
+              >GitHub-ul meu</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="despre">
+        <div class="container">
+          <h2>Despre mine</h2>
+          <p>
+            Sunt student în anul 1 la Universitatea Tehnică a Moldovei (UTM) și
+            am 20 de ani. Vreau să mă pun pe picioare și să-mi schimb viața
+            învățând vibe coding, ca să obțin un job care îmi poate schimba
+            viitorul.
+          </p>
+          <p>
+            În afară de asta, sunt o persoană mai leneșă, dar când e vorba de
+            ceva serios nu stau în pat. Am o iubită frumoasă și vreau să o fac
+            fericită.
+          </p>
+        </div>
+      </section>
+
+      <section id="skilluri">
+        <div class="container">
+          <h2>Skill-uri și unelte</h2>
+          <p>Doar ce am folosit cu adevărat până acum:</p>
+          <ul class="etichete">
+            <li>VS Code</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>OpenCode</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="proiecte">
+        <div class="container">
+          <h2>Proiecte</h2>
+          <div class="carduri">
+            <article class="card">
+              <h3>Portofoliul meu</h3>
+              <p>
+                Primul meu site real: pagină statică cu Vite vanilla, cu 5
+                secțiuni despre mine, publicată pe Vercel.
+              </p>
+              <a
+                href="https://github.com/Andriuha20/portofoliu"
+                target="_blank"
+                rel="noopener"
+                >Vezi codul pe GitHub</a
+              >
+            </article>
+            <article class="card">
+              <p class="badge">În lucru</p>
+              <h3>Mini-proiect de exercițiu</h3>
+              <p>
+                Următorul proiect mic prin care exersez HTML, CSS și Git: îl
+                planific acum și îl public aici când e gata.
+              </p>
+              <a
+                href="https://github.com/Andriuha20?tab=repositories"
+                target="_blank"
+                rel="noopener"
+                >Vezi progresul pe GitHub</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Cel mai ușor mă găsești așa:</p>
+          <ul class="contact-lista">
+            <li>
+              Email:
+              <a href="mailto:andriuha020@gmail.com">andriuha020@gmail.com</a>
+            </li>
+            <li>Discord: <span>andriuha7743</span></li>
+            <li>
+              GitHub:
+              <a
+                href="https://github.com/Andriuha20"
+                target="_blank"
+                rel="noopener"
+                >github.com/Andriuha20</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="an">2026</span> Țîgîrlaș Andrei.</p>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
